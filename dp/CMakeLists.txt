@@ -1,0 +1,2 @@
+
+add_executable(abstractFactory main.cpp abstractFactory\fac_main.cpp abstractFactory\con_factory.h abstractFactory\con_product.h abstractFactory\fac_main.h abstractFactory\factory.cpp abstractFactory\factory.h)  

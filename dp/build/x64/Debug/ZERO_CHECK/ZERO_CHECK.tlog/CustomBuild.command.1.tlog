@@ -1,0 +1,10 @@
+^D:\CODE\REPERTORY\GITHUB\C\DP\BUILD\CMAKEFILES\F261A848EFA6EA9F57093DABA3A8E751\GENERATE.STAMP.RULE
+setlocal
+D:\files\Cmake\bin\cmake.exe -SD:/CODE/Repertory/GitHub/C/dp -BD:/CODE/Repertory/GitHub/C/dp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CODE/Repertory/GitHub/C/dp/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
